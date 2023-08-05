@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="innercontainer">
+
+            <h1 class="heading">Password Generator</h1>
+            <div class="passwordAndButton">
+                <div id="passwordArea">Password</div>
+                <button id="copybtn" class="generatebtn" onclick="copyFunction()">Copy</button>
+            </div>
+
+            <div id="ChoosePasswordType">
+                <div class="form-check">
+                    <input type="radio" name="passwordType" value="suggestFunnyPassword">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Funny password
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="passwordType" value="suggestNormalPassword">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Normal password
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="passwordType" value="suggestStrongPassword" checked>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Strong password
+                    </label>
+                </div>
+
+            </div>
+            <div class="generatePassword">
+                <button class="generatebtn" onclick="generatePassword()">Generate</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

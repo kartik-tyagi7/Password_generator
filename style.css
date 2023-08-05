@@ -1,0 +1,119 @@
+body{
+    background-color: #d65151;
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--YtxZHNsY--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/f5tzpogltw730jx3lb56.jpg")
+}
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    margin: auto;
+}
+
+.innercontainer{
+    border: 5px solid #0387ac;
+    width: 400px;
+    height: 425px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    /* background:#94e4ff;*/
+    backdrop-filter: blur(10px);
+    /* opacity: .8; */
+    font-family: 'Tektur', cursive;
+    box-shadow: 1px 1px 136px 39px rgba(0,0,0,0.6),
+0px 45px 26px 0px rgba(0,0,0,0.14);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    /* text-decoration: underline; */
+    margin-bottom: 30px;
+    color: #a8c5ff;
+}
+
+.passwordAndButton{
+    display: flex;
+    /* width: 120px; */
+    margin: auto;
+}
+
+#passwordArea{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 35px;
+    width: 225px;
+    /* margin-right: 22px; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#ffffff;
+    font-size: 20px;
+    
+
+}
+
+label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eaeaea;
+  color: #333;
+  cursor: pointer;
+  border-radius: 4px;
+    font-weight: bold;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #4b3f3f;
+    color: #fff;
+}
+
+
+#ChoosePasswordType{
+    /* border: 2px solid black; */
+    width: 234px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.form-check{
+    /* border: 2px solid black; */
+    margin: 10px;
+}
+
+.generatePassword{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
+.generatebtn {
+  /* Button styles */
+    display: flex;
+    margin:auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #337ab7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.generatebtn:hover {
+  /* Button styles on hover */
+    background-color: #23527c;
+    transform: scale(1.1);
+    transition: .3s;
+    
+}
+
+.generatebtn:active {
+  /* Button styles when clicked */
+  background-color: #1d466b;
+}
+
+
+
